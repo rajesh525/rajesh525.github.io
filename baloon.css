@@ -1,0 +1,231 @@
+.stable {
+    position: fixed;
+    height: 520px;
+    left:174px;
+
+  }
+  .stable .balloone {
+    position: absolute;
+    bottom: 0;
+    width: 100px;
+    height: 163px;
+   background: rgba(182, 15, 97, 0.9);
+                border-radius: 0;
+                border-radius: 80% 80% 80% 80%;
+                margin: 0 auto;
+                position: absolute;
+                padding: 10px;
+                box-shadow: inset 17px 7px 10px rgba(182, 15, 97, 0.9);
+                -webkit-transform-origin: bottom center;
+
+  }
+  
+  .stable:hover .balloone{
+    bottom: 483px;
+
+    transition-duration: 4s;
+  }
+
+  .stable .default {
+    left: 39px;
+    width: 95px;
+                height: 140px;
+                 background: rgba(180, 224, 67, 0.9);
+                
+                box-shadow: inset 10px 10px 10px rgba(158, 206, 34, 0.9);
+                border-radius: 0;
+                border-radius: 80% 80% 80% 80%;
+                margin: 0 auto;
+                position: absolute;
+                padding: 10px;
+                transition-timing-function: default;
+                
+                -webkit-transform-origin: bottom center;
+                 -webkit-animation: balloon1 6s ease-in-out infinite;
+                -moz-animation: balloon1 6s ease-in-out infinite;
+                -o-animation: balloon1 6s ease-in-out infinite;
+                animation: balloon1 6s ease-in-out infinite;
+                
+  }
+
+
+  .stable .balloone.linear {
+    left: 159px;
+    width: 95px;
+                height: 140px;
+                background: rgba(242, 112, 45, 0.9);
+              
+                box-shadow: inset 10px 10px 10px rgba(222, 85, 14, 0.9);
+                border-radius: 0;
+                border-radius: 80% 80% 80% 80%;
+                margin: 0 auto;
+                transition-timing-function: linear;
+                position: absolute;
+                padding: 10px;
+                
+                -webkit-transform-origin: bottom center;
+                 -webkit-animation: balloon1 6s ease-in-out infinite;
+                -moz-animation: balloon1 6s ease-in-out infinite;
+                -o-animation: balloon1 6s ease-in-out infinite;
+                animation: balloon1 6s ease-in-out infinite;
+  }
+  .stable .balloone.ease-in {
+    left: 279px;
+    width: 95px;
+                height: 140px;
+    background: rgba(135, 11, 72, 0.9);
+              
+                box-shadow: inset 10px 10px 10px rgba(135, 11, 72, 0.9);
+                -webkit-animation: balloon4 6s ease-in-out infinite;
+                -moz-animation: balloon4 6s ease-in-out infinite;
+                -o-animation: balloon4 6s ease-in-out infinite;
+                animation: balloon4 6s ease-in-out infinite;
+  }
+  .stable .balloone.ease-out {
+    left: 399px;
+    transition-timing-function: default;
+    width: 95px;
+                height: 140px;
+                background: rgba(234, 177, 15, 0.9);
+                box-shadow: inset 10px 10px 10px rgba(234, 177, 15, 0.9);
+                border-radius: 0;
+                border-radius: 80% 80% 80% 80%;
+                margin: 0 auto;
+                transition-timing-function: linear;
+                position: absolute;
+                padding: 10px;
+                
+                -webkit-transform-origin: bottom center;
+
+ -webkit-animation: balloon2 6s ease-in-out infinite;
+                -moz-animation: balloon2 6s ease-in-out infinite;
+                -o-animation: balloon2 6s ease-in-out infinite;
+                animation: balloon2 6s ease-in-out infinite;
+  }
+  .stable .balloone.ease-in-out {
+    left: 519px;
+    transition-timing-function: ease-in-out;
+    width: 95px;
+                height: 140px;
+                background: rgba(182, 15, 97, 0.9);
+                border-radius: 0;
+                border-radius: 80% 80% 80% 80%;
+                margin: 0 auto;
+                transition-timing-function: default;
+                position: absolute;
+                padding: 10px;
+                box-shadow: inset 17px 7px 10px rgba(182, 15, 97, 0.9);
+                -webkit-transform-origin: bottom center;
+                 -webkit-animation: balloon1 6s ease-in-out infinite;
+                -moz-animation: balloon1 6s ease-in-out infinite;
+                -o-animation: balloon1 6s ease-in-out infinite;
+                animation: balloon1 6s ease-in-out infinite;
+
+  }
+  .stable .balloone.cubic-bezier {
+    left: 639px;
+    transition-timing-function: default;
+      width: 95px;
+
+                height: 140px;
+               background: rgba(242, 112, 45, 0.9);
+                border-radius: 0;
+                border-radius: 80% 80% 80% 80%;
+                margin: 0 auto;
+                transition-timing-function: linear;
+                position: absolute;
+                padding: 10px;
+box-shadow: inset 10px 10px 10px rgba(222, 85, 14, 0.9);       
+         -webkit-transform-origin: bottom center;
+ -webkit-animation: balloon4 6s ease-in-out infinite;
+                -moz-animation: balloon4 6s ease-in-out infinite;
+                -o-animation: balloon4 6s ease-in-out infinite;
+                animation: balloon4 6s ease-in-out infinite;
+  }
+  .stable .balloone.last2 {
+    left: 759px;
+    transition-timing-function: default;
+      width: 95px;
+
+                height: 140px;
+               background: rgba(180, 224, 67, 0.9);
+                
+                box-shadow: inset 10px 10px 10px rgba(158, 206, 34, 0.9);
+                border-radius: 0;
+                border-radius: 80% 80% 80% 80%;
+                margin: 0 auto;
+                transition-timing-function: default;
+                position: absolute;
+                padding: 10px;
+     
+         -webkit-transform-origin: bottom center;
+
+   -webkit-animation: balloon2 6s ease-in-out infinite;
+                -moz-animation: balloon2 6s ease-in-out infinite;
+                -o-animation: balloon2 6s ease-in-out infinite;
+                animation: balloon2 6s ease-in-out infinite;
+  }
+  .stable .balloone.last1 {
+    left: 889px;
+    transition-timing-function: default;
+      width: 95px;
+
+                height: 140px;
+                background: rgba(190, 61, 244, 0.9);
+                
+                box-shadow: inset 10px 10px 10px rgba(173, 14, 240, 0.9);
+                border-radius: 0;
+                border-radius: 80% 80% 80% 80%;
+                margin: 0 auto;
+                transition-timing-function: linear;
+                position: absolute;
+                padding: 10px;
+     
+         -webkit-transform-origin: bottom center;
+
+   -webkit-animation: balloon1 6s ease-in-out infinite;
+                -moz-animation: balloon1 6s ease-in-out infinite;
+                -o-animation: balloon1 6s ease-in-out infinite;
+                animation: balloon1 6s ease-in-out infinite;
+  }
+
+   .balloone:before {
+                
+                position: absolute;
+                bottom: -11px;
+                left: 52px;
+                content:"▲";
+                font-size: 1em;
+            }
+            .default,.last2:before{
+
+              color: rgba(180, 224, 67, 0.9);
+            }
+            .linear,.cubic-bezier:before{
+
+              color: rgba(242, 112, 45, 0.9);
+            }
+            .ease-in:before{
+
+              color: rgba(135, 11, 72, 0.9);
+            }
+            .ease-out:before{
+
+              color: rgba(234, 177, 15, 0.9);
+            }
+            .ease-in-out:before{
+
+              color: rgba(182, 15, 97, 0.9);
+            }
+            .last1:before{
+
+              color: rgba(190, 61, 244, 0.9);
+            }
+            span {
+                font-size: 4.8em;
+                color: white;
+                position: relative;
+                top: 30px;
+                left: 30%;
+                margin-left: -27px;
+            }
